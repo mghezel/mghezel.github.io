@@ -1,0 +1,302 @@
+/**
+ First External CSS Stylesheet
+ **/
+
+/*
+Each of these CSS elements is associated with an HTML Element, Class, or ID.
+Flip between this CSS file and the HTML to see how things line up.
+Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
+*/
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+  line-height: 150%;
+  color: #333;
+  background: #efeee7;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: 25px;
+    border-style: inset;
+    border-width: 1px;
+
+} 
+
+/*header {
+  background: #333;
+}*/
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+a {
+  color: #d21034;
+}
+
+div {
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+}
+
+#about-div {
+  width: 50%;
+
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+#main-bio,
+#contact-info,
+#port-bio,
+#bio-image
+#para-section {
+
+  float: left;
+}
+
+#main-bio {
+
+  width: 50%;
+  margin: 40px;
+
+}
+
+#port-bio {
+
+  width: 40%;
+  height: 400px;
+  margin: 40px;
+  margin-left: 40px;
+  margin-right: 60px;
+  border-width: 2px;
+  text-align: center;
+  color: grey;
+
+}
+
+#para-section {
+
+  width: 50%;
+  height: 500px;
+  padding: 20px;
+  margin: 40px;
+  color: black;
+  background-color: white;
+}
+
+
+#contact-info {
+
+  width: 20%;
+  height: 150px;
+  margin-right: 15px;
+  padding: 40px;
+  font-size: 20px;
+  border-width: 2px;
+  text-align: center;
+  color: grey;
+}
+
+#index-contact-info {
+
+  width: 20%;
+  height: 150px;
+  margin: 20px;
+  margin-right: 15px;
+  padding: 20px;
+  font-size: 20px;
+  border-width: 2px;
+  text-align: center;
+  color: grey;
+  background-color: white;
+  float: right;
+
+}
+
+
+input[type=text], select {
+    width: 95%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    margin-right: 700px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: lightgreen;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: grey;
+}
+
+
+#message {
+    width: 95%;
+    height: 150px;
+    padding: 12px 20px;
+    margin-right: 700px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+#form_header {
+
+  text-align: left;
+}
+
+.img-top-left {
+
+    position: absolute;
+    left: 60px;
+    top: 200px;
+    z-index: 1;
+}
+
+.img-top-right {
+
+    position: absolute;
+    left: 220px;
+    top: 140x;
+    z-index: 2;
+}
+
+.img-middle-left {
+
+    position: absolute;
+    left: 60px;
+    top: 310px;
+    z-index: 3;
+  }
+
+ .img-middle-right {
+
+    position: absolute;
+    left: 220px;
+    top: 310px;
+    z-index: 4;
+  }
+
+.img-bottom-left {
+
+    position: absolute;
+    left: 60px;
+    top: 420px;
+    z-index: 5;
+  }
+
+  * {
+        box-sizing: border-box;
+    }
+
+
+    /* Style the header */
+    .header {
+        background-color: lightgreen;
+        padding: 10px;
+      
+    }
+
+    /* Style the top navigation bar */
+    .topnav {
+        overflow: hidden;
+        background-color: lightgrey;
+        height: 70px;
+    }
+
+    /* Style the topnav links */
+    .topnav a {
+
+        float: right;
+        display: block;
+        color: grey;
+        text-align: center;
+        padding: 0px 20px;
+        text-decoration: none;
+        margin-top: -20px;
+
+    }
+
+     header{
+
+      text-align: left;
+      padding-top: 30px;
+      margin-left: 10px;
+      background-color: lightgreen;
+      width: 150px;
+      border: none;
+ 
+    }
+
+    /* Change color on hover */
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+
+    .profile-pic{
+        float: left;
+        margin-top: 5px;
+        width: 230px;
+        height: 230px;
+        padding: 50px;
+        margin-left: -50px;
+    }
+
+
+
+    #para1{
+
+        position: absolute;
+        float: left;
+        width: 40%;
+        padding: 40px;
+        left: 160px;
+    }
+
+    #para2{
+
+        position: absolute;
+        float: left;
+        width: 70%;
+        padding: 190px;
+        left: -120px;
+    }
+
